@@ -1,0 +1,40 @@
+# Python environments
+.venv/
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Data and artifacts
+data/
+*.csv
+*.parquet
+*.json
+*.db
+*.sqlite
+
+# Models and checkpoints
+models/
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.h5
+
+# Secrets and local config
+.env.local
+.env.*.local
+secrets/
+*.key
+*.pem
